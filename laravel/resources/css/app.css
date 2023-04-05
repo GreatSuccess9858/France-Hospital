@@ -1,0 +1,95 @@
+.auth-one-bg-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 380px;
+}
+
+.auth-one-bg {
+   background-position: center;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0, 0, 0, 0) 0%, rgb(25 75 255 / 17%) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgb(9 87 255 / 47%) 166%);
+}
+
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.auth-one-bg .bg-overlay {
+    background: linear-gradient(to right, rgb(99 41 255 / 6%), rgb(120 247 40 / 18%));
+    opacity: 0.9;
+}
+
+.bg-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.auth-one-bg .shape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.auth-one-bg .shape > svg {
+    width: 100%;
+    height: auto;
+    fill: #ecf0fa;
+}
+
+.particles-js-canvas-el {
+    position: relative;
+}
+
+.auth-page-wrapper .auth-page-content {
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.login-bg {
+    background-color: rgb(255 255 255 / 50%);
+    backdrop-filter: saturate(180%) blur(7px);
+    border: 2px solid rgb(255 255 255 / 70%);
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 15px -3px, rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+}
+
+.card-body {
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.form-label {
+    font-size: 17px;
+    font-family: calibri;
+}
+
+body {
+    background: #ecf0fa !important;
+}

@@ -1,0 +1,151 @@
+body div nav .nav_background {
+    /*background-color: rgba();*/
+    height: 10vh;
+}
+.hospital_title{
+    font-size: 20px;
+    font-family:  inherit;
+    color:#02b4ce;
+    margin-right: 5px;
+}
+.hospital_info{
+    font-size: 12px;
+    font-family:  inherit;
+    color:#888;
+}
+.hospital_contact_info {
+    font-size: 16px;
+    font-family:  inherit;
+    color:#888;
+}
+.hospital_contact_info span .tel_color {
+    color:#02b4ce;
+}
+.main_section {
+   
+    background-image: linear-gradient(to right, #02b4ce, white);
+    padding: 50px;
+    height: 100vh;
+}
+.main_section .image_view img {
+    width: 300px;
+
+}
+ul {
+    padding-left: 0!important;
+}
+.doctor_list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.logo_section img {
+    margin-right: 10px;
+}
+.doctor_avatar img{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.doctor_detail {
+    background-color: white;
+    height: 100px;
+    /*width: 550px;*/
+    /*width: 80vw;*/
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    color:#888;
+    padding-left: 125px;
+    padding-right: 10px;
+    z-index: -1;
+    cursor: pointer;
+
+}
+.doctor_detail .doctor_detail_text {
+    margin-top: 7px;
+}
+.doctor_avatar_image {
+    z-index: 1;
+}
+.form_section {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 14vh;
+    bottom: -8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+.input_field {
+ margin-top: 20px;
+}
+.input_field input {
+    width: 30vw;
+    font-size: 16px;
+    border: solid 1px #02b4ce;
+    outline: none;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+button {
+    background-color: white;
+    color: #02b4ce;
+    outline: none;
+    border: solid 1px #02b4ce;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin-left: 15px;
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+button:hover {
+    background-color: #02b4ce;
+    color: white;
+}
+.footer_title {
+    font-size: 16px;
+    font-family:  inherit;
+    color:#02b4ce;
+}
+.doctor_select {
+    margin-right: 10px;
+}
+.nav_top {
+    background-color: white;
+    padding-top: 1px;
+}
+.input_name {
+    width: 30%;
+    outline: none;   
+    border-radius: 30px; 
+    border: none;
+    padding: 5px 20px;
+}
+input:focus {
+    outline: none;
+
+}
+.btn-close {
+    background-color: white;
+}
+.btn-close:hover {
+    background-color: white!important;
+}
+.out_btn {
+    border-radius: 50%!important;
+}
+@media only screen and (max-width: 500px) {
+    .doctor_details {
+        display: none;
+    }
+    .doctor_detail_text span {
+        margin-top: 20px;
+    }
+}
